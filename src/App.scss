@@ -1,0 +1,16 @@
+$title:#1b95e7;
+@import './lib/css/index';
+
+
+#root {
+    margin: 0 auto;
+    max-width: 1280px;
+    .person-info{
+        .title{
+            color:$title;
+            @extend .bold500;
+            @extend .h24;
+            // border-bottom: 1px solid $title;
+        }
+    }
+}
