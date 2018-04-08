@@ -51,11 +51,11 @@
   background-color: #D9D9D9;
 }
 
-.color-white {
+.color-white, #root .App-intro .header .text {
   color: #FFFFFF;
 }
 
-.color-smokeWhite {
+.color-smokeWhite, #root .person-info {
   color: #F5F5F5;
 }
 
@@ -311,7 +311,7 @@
   display: block;
 }
 
-.inline-block {
+.inline-block, #root .App-intro .header .text {
   display: inline-block;
 }
 
@@ -347,7 +347,7 @@
   overflow: scroll;
 }
 
-.auto {
+.auto, #root {
   overflow: auto;
 }
 
@@ -378,7 +378,7 @@
 }
 
 /*left,right 浮动容易重名 */
-.f-left {
+.f-left, #root .App-intro .row, #root .App-intro .colom-1, #root .App-intro .colom-2 {
   float: left;
 }
 
@@ -684,7 +684,7 @@
   padding-right: var(--space-1);
 }
 
-.p2 {
+.p2, #root .App-intro .header .text {
   padding: var(--space-2);
 }
 
@@ -1352,11 +1352,33 @@
   --z4: 4;
 }
 
-#root {
+#root .person-info {
   margin: 0 auto;
   max-width: 1280px;
+  background-image: -webkit-linear-gradient(left top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.3));
 }
 
 #root .person-info .title {
   color: #1b95e7;
+}
+
+#root .App-intro .header {
+  border-bottom: 2px solid #1b95e7;
+}
+
+#root .App-intro .header .text {
+  background-color: #1b95e7;
+}
+
+#root .App-intro .row {
+  width: 100%;
+  line-height: 24px;
+}
+
+#root .App-intro .colom-1 {
+  width: 100%;
+}
+
+#root .App-intro .colom-2 {
+  width: 50%;
 }
