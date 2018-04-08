@@ -2,6 +2,7 @@
   "name": "person-info",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://hpstream.github.io/person-info/build",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
