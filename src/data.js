@@ -3,7 +3,7 @@
 var title = {
   name: "个人信息",
   colom: 1,
-  data: ["黄鹏", "求职意向：前端开发", "手机号：13155183095"]
+  data: ["姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：黄鹏", "求职意向：前端开发", "手&nbsp;机&nbsp;&nbsp;号：13155183095"]
 };
 var info = {
   name: "求职意向",

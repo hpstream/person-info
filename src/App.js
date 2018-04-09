@@ -41,10 +41,10 @@ class App extends Component {
                   <div className='pt2 px2 color-link'>{cd.protectName}</div>
                   <div className='pt1 px2'>{cd.protectInfo}</div>
                   <div className='pt1 px2'>{cd.protextDuty}</div>
-                  <div className='pb0 clearfix'>
+                  <div className='pb0 clearfix col'>
                   {cd.data.map((s1,s)=>{
                       return (<div
-                        className={"pl6 colom-" + item.colom}
+                        className={" colom-" + item.colom}
                         key={s}
                         dangerouslySetInnerHTML={{ __html: s1 }}
                       >
@@ -71,7 +71,7 @@ class App extends Component {
         <audio src={mp3} id='audio' ref='audio' preload='true'  onCanPlay={() => this.controlAudio('allTime')}></audio>
         <header className="title p4 flex justify-between">
           {personInfo.title.data.map((item, i) => {
-            return <div key={i}>{item}</div>;
+            return <div key={i}  dangerouslySetInnerHTML={{ __html: item }}></div>;
           })}
         </header>
         <div className="App-intro p4 clearfx">

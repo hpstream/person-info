@@ -1352,6 +1352,15 @@
   --z4: 4;
 }
 
+@media only screen and (max-width: 480px) {
+  .colom-2 {
+    width: 100% !important;
+  }
+  .title {
+    display: block;
+  }
+}
+
 #root .person-info {
   margin: 0 auto;
   max-width: 1280px;
@@ -1377,6 +1386,9 @@
 
 #root .App-intro .colom-1 {
   width: 100%;
+  text-indent: 2em;
+  word-break: break-all;
+  text-align: justify;
 }
 
 #root .App-intro .colom-2 {

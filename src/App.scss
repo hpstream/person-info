@@ -1,6 +1,19 @@
 $title:#1b95e7;
 @import './lib/css/index';
 
+@media (max-width: 767px){
+    
+}
+   
+@media only screen and (max-width:480px){
+        .colom-2{
+            width: 100% !important;
+        }
+        .title{
+            display: block;
+        }
+}
+
 #root {
     @extend .auto;
     .person-info{
@@ -35,6 +48,9 @@ $title:#1b95e7;
         }
         .colom-1{
             width: 100%;
+            text-indent:2em;
+            word-break: break-all;
+            text-align: justify;
             @extend .f-left;
         }
         .colom-2{
