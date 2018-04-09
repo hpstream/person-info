@@ -40,7 +40,7 @@ var skill = {
     "熟练原生js, 了解js面向对象原理，闭包以及原型结构",
     "熟练Ajax交互，promise,fecth根据后台接口能够合理完成前后台交互",
     "熟练使用less,sass预处理语言和gulp，webpack代码打包工具",
-    "熟练使用javascrtipt设计模式，可以采用面向对象编程进行页面开发。",
+    "熟练使用javascript设计模式，可以采用面向对象编程进行页面开发。",
     "熟悉html5,css3新特性，可用css3制作动画",
     "熟练使用 angularJS（ng1）,vue.js，react可以完成无需刷新的单页面应用",
     "了解Node.js，express，koa等web框架，会使用npm命令行以git版本管理工具",
@@ -66,7 +66,7 @@ var experience = {
     data:[{
         time:['2017.4-至今','安徽富驰信息技术有限公司','web前端工程师'],
         children:[{
-            protectName:'负责项目1：类安指引 (http://36.7.159.17:8088/fd-court-guide/login)',
+            protectName:'负责项目1：类按指引 (http://36.7.159.17:8088/fd-court-guide/login)',
             protectInfo:'项目简介：基于es大数据进行分析，获取海量数据，为司法部门公平公正建立系统，做到司法透明。',
             protectDuty:' 主要职责：类安指引，量刑辅助',
             data:[
