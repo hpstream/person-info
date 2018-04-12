@@ -1359,12 +1359,14 @@
   .title {
     display: block;
   }
+  #root .person-info {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(91, 91, 91, 0.6), rgba(0, 0, 0, 0.3)) !important;
+  }
 }
 
 #root .person-info {
   margin: 0 auto;
-  max-width: 1280px;
-  background-image: -webkit-linear-gradient(left top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.3));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3));
 }
 
 #root .person-info .title {

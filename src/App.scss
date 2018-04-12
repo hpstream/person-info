@@ -12,15 +12,19 @@ $title:#1b95e7;
         .title{
             display: block;
         }
+        #root .person-info{
+            
+            background-image:  -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) , rgba(91, 91, 91, 0.6),rgba(0, 0, 0, 0.3)) !important;
+        }
 }
 
 #root {
     @extend .auto;
     .person-info{
         margin: 0 auto;
-        max-width: 1280px;
+        // max-width: 1280px;
         @extend .color-smokeWhite;
-        background-image:  -webkit-linear-gradient(left top, rgba(0, 0, 0, 0.3) , rgba(255, 255, 255, 0.4),rgba(0, 0, 0, 0.3));
+        background-image:  -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) , rgba(255, 255, 255, 0.3),rgba(0, 0, 0, 0.3));
         // box-shadow: 20px 20px 0px rgba(255, 255, 255, 0.4);
         // background: -webkit-linear-gradient(left top, red , blue);
         .title{
