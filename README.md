@@ -10,4 +10,4 @@
 
 1.4 npm start （运行调试）
 
-1.5 npm build (打包)
+1.5 npm run build (打包)
